@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    border: 1px solid rgb(210, 210, 210);
+    display: flex;
+    padding: 6px;
+    justify-content: space-between;
+    color: #3c4043;
+}
+
+.menuTitulo {
+    display: flex;
+    align-items: center;
+}
+
+.menuLista {
+    display: flex;
+}
+
+.menuLista li a {
+    padding: 20px;
+    color: #3c4043;
+}
+
+.icono_menu{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.iconosMenu {
+    display: flex;
+    align-items: center;
+}
+
+
+.Iconos_1{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    column-gap: normal;
+    justify-content: space-evenly;
+
+}
+
+.titulo_principal{
+    font-size: 18px;
+}
+
+.titulo1{
+    justify-content: center;
+    columns: reverse;
+}
+    
+.titulo2{
+    justify-content: center;
+    columns: reverse;
+}
+    
+.titulo3{
+    justify-content: center;
+    columns: reverse;
+}
+    
+.Menu_puntos{
+    display: flex;
+    width: 18px;
+    height: 18px;
+    overflow: clip;
+    flex-direction: row row-reverse;
+}
+
+.logo_gmail{
+    display: flex;
+    width: 74px;
+    height: 24px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    flex-direction: row row-reverse;
+}
+
+.imagenSteam{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
+.imagenSteam:hover{
+    box-shadow: 0 0 10px rgb(8, 5, 5) ;
+} 
+
+.cartas{
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.cartaIndividual {
+    width: 230px;
+    height: 100px;
+    padding: 9px;
+    margin-right: 20px;
+    border-radius: 7px;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.cartaIndividual h1 {
+    font-size: 12px;
+}
+
+.cartaIndividual p {
+    font-size: 12px;
+    color: rgb(137, 137, 137);
+}
+
+.cartaIndividual a {
+    color: black;
+    font-size: 14px;
+    float: right;
+}
+
+.cartasEnGrupo {
+    width: 100%;
+}
+
+.banner{
+    text-decoration: none;
+    color: #3c4043;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bannerTitulo {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.menu_puntos{
+    width: 18px;
+    height: 18px;
+    color: rgb(110, 107, 107);
+}
+
+.bolita {
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+    background-color: gray;
+}
+
+main {
+    width: 853px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.fecha{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.cartasTareas {
+    display: flex;
+    padding: 20px 0;
+}

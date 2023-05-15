@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #2962FD;
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+}
+
+.icon_menu{
+    width: 24px;
+    height: 24px;
+    color: #2962FD;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.icon_google {
+    width: 74px;
+    height: 24px;
+    
+}
+
+.classroom{
+    width: 103px;
+    height: 27px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    color: #5f6368;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.Icono_acceso{
+    width: 28px;
+    height: 28px;
+    margin-right: 20px;
+
+}
+
+.Menu_puntos{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.logo_google{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.title{
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid gray;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Icon_menu{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin: 20px 10px;
+   
+}
+.menu_portapel{
+    width: 15px;
+    height: 15px;
+    color: #2962FD;
+    margin: 10px 10px;
+    
+}
+
+.menu_calendario{
+    width: 15px;
+    height: 15px;
+    color: #2962FD;
+    align-items: center;
+    margin: 1px 10px;
+}
+
+.cartas{
+    width: 300px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.descripcion_banner {
+    height: 150px;
+}
+
+.banner1{
+    background: url(./Imagenes/Programar\ JAVASCRIPT.jpg);
+    background-size: cover;
+}
+
+.banner2{
+    background: url(./Imagenes/PPmagen\ de\ WhatsApp\ 2023-05-15\ a\ las\ 13.42.05.jpg);
+    background-size: cover;
+}
+
+.banner3{
+    background: url(./Imagenes/3Imagen\ de\ WhatsApp\ 2023-05-15\ a\ las\ 14.47.55.jpg);
+    background-size: cover;
+}
+
+.banner4{
+    background: url(./Imagenes/Programar\ JAVASCRIPT.jpg);
+    background-size: cover;
+}
+
+
+.banner{
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: rgb(247, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner .bolita {
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    margin-bottom: -50px;
+}
+
+.titulo_banner {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   font-size: 1.100rem;
+   font-weight: 400;
+   line-height: 1.75rem;
+}
+
+.icono_persona{
+    width: 25px;
+    height: 22px;
+}
+
+.icono_carpeta{
+    width: 25px;
+    height: 22px;   
+}
+
+.tareas_pendientes,
+.calendario {
+    font-weight: bold;
+}
+
+.tareas{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+    border-top: 1px solid rgb(191, 191, 191);
+    gap: 30px;
+}
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(253, 250, 250);
+}
+
+.coach {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
